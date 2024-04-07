@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --innerpad: 1em;
+  --maincolor: red;
+  --seconadarycolor: white;
+}
+img {
+  margin: 0.6em;
+}
+.wrapper {
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_small.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 0.9em;
+}
+.container-1 {
+  /* border: 1px solid white; */
+  padding: var(--innerpad);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  height: 63%;
+  width: 23%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--seconadarycolor);
+  backdrop-filter: blur(0.1em);
+  border-radius: 0.3em;
+}
+input {
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  padding: 1em;
+  font-size: 1em;
+  font-weight: lighter;
+  border-radius: 0.3em;
+  background-color: grey;
+  color: aliceblue;
+}
+input::placeholder {
+  color: black;
+}
+
+.btn {
+  margin-top: 1.2em;
+  height: 3.1em;
+  background-color: var(--maincolor);
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 0.3em;
+  font-size: medium;
+  color: aliceblue;
+}
+
+#first-para {
+  margin: 0em 0em 1.2em 0em;
+  font-family: "Nunito", sans-serif;
+}
+
+.check {
+  margin: 0em 0em 0.9em 0em;
+  font-family: "Nunito", sans-serif;
+  font-size: medium;
+  display: flex;
+  justify-content: space-between;
+}
+
+#second-para {
+  font-family: "Nunito", sans-serif;
+}
+/* .footer {
+  border: 1px solid red;
+  height: 15.9%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: .4em;
+}
+.data{
+  border: 1px solid white;
+  height: 10%;
+  width: 100%;
+  color: whitesmoke;
+  padding: 3.9em;
+}
+.info{
+  display: flex;
+  gap: 10em;
+  flex-wrap: ;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  .wrapper {
+    background: rgba(0, 0, 0, 0.925);
+    height: 80vh;
+  }
+  img {
+    height: 1.4em;
+  }
+  .container-1 {
+    width: 83%;
+    background: none;
+    /* border: 1px dotted white; */
+    margin-top: 3em;
+    height: 70%;
+  }
+}
